@@ -15,6 +15,7 @@ return{
    tg,
    user:tg.initDataUnsafe?.user?.username,
    onClose,
-   onToggleButton
+   onToggleButton,
+   queryId:tg.initDataUnsafe?.query_id
 }
 }
